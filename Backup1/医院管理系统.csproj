@@ -1,0 +1,777 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "医院管理系统"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "医院管理系统"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "allpepole.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "allpepole.cs"
+                />
+                <File
+                    RelPath = "allpepole.cs"
+                    DependentUpon = "allpepole.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "bedhos.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bedhos.aspx.cs"
+                    DependentUpon = "bedhos.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "bedhos.aspx.resx"
+                    DependentUpon = "bedhos.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bedid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bedid.aspx.cs"
+                    DependentUpon = "bedid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "bedid.aspx.resx"
+                    DependentUpon = "bedid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bedzhao.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bedzhao.aspx.cs"
+                    DependentUpon = "bedzhao.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "bedzhao.aspx.resx"
+                    DependentUpon = "bedzhao.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Cpass.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Cpass.resx"
+                    DependentUpon = "Cpass.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataSet1.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DataSet1.cs"
+                />
+                <File
+                    RelPath = "DataSet1.cs"
+                    DependentUpon = "DataSet1.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds.cs"
+                />
+                <File
+                    RelPath = "ds.cs"
+                    DependentUpon = "ds.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds1.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds1.cs"
+                />
+                <File
+                    RelPath = "ds1.cs"
+                    DependentUpon = "ds1.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds3.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds3.cs"
+                />
+                <File
+                    RelPath = "ds3.cs"
+                    DependentUpon = "ds3.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dsa.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsa.cs"
+                />
+                <File
+                    RelPath = "dsa.cs"
+                    DependentUpon = "dsa.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dss.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dss.cs"
+                />
+                <File
+                    RelPath = "dss.cs"
+                    DependentUpon = "dss.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "dsss.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsss.cs"
+                />
+                <File
+                    RelPath = "dsss.cs"
+                    DependentUpon = "dsss.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "guacz.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "guacz.cs"
+                />
+                <File
+                    RelPath = "guacz.cs"
+                    DependentUpon = "guacz.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "guahao.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "guahao.aspx.cs"
+                    DependentUpon = "guahao.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "guahao.aspx.resx"
+                    DependentUpon = "guahao.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "guahaocz.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "guahaocz.aspx.cs"
+                    DependentUpon = "guahaocz.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "guahaocz.aspx.resx"
+                    DependentUpon = "guahaocz.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "index.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "index.aspx.cs"
+                    DependentUpon = "index.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "index.aspx.resx"
+                    DependentUpon = "index.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "jiuzhen.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jiuzhen.aspx.cs"
+                    DependentUpon = "jiuzhen.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "jiuzhen.aspx.resx"
+                    DependentUpon = "jiuzhen.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "jzhenzhao.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jzhenzhao.aspx.cs"
+                    DependentUpon = "jzhenzhao.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "jzhenzhao.aspx.resx"
+                    DependentUpon = "jzhenzhao.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "jzzhao.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "jzzhao.cs"
+                />
+                <File
+                    RelPath = "jzzhao.cs"
+                    DependentUpon = "jzzhao.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "jzzhao.xsx"
+                    DependentUpon = "jzzhao.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "mimagai.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mimagai.aspx.cs"
+                    DependentUpon = "mimagai.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mimagai.aspx.resx"
+                    DependentUpon = "mimagai.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "money.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "money.aspx.cs"
+                    DependentUpon = "money.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "money.aspx.resx"
+                    DependentUpon = "money.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "myima.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "myima.cs"
+                />
+                <File
+                    RelPath = "myima.cs"
+                    DependentUpon = "myima.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "nan.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "nan.cs"
+                />
+                <File
+                    RelPath = "nan.cs"
+                    DependentUpon = "nan.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "nanbing.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "nanbing.aspx.cs"
+                    DependentUpon = "nanbing.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "nanbing.aspx.resx"
+                    DependentUpon = "nanbing.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "nanzhao.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "nanzhao.aspx.cs"
+                    DependentUpon = "nanzhao.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "nanzhao.aspx.resx"
+                    DependentUpon = "nanzhao.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "sda.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "sda.cs"
+                />
+                <File
+                    RelPath = "sda.cs"
+                    DependentUpon = "sda.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "sda1.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "sda1.cs"
+                />
+                <File
+                    RelPath = "sda1.cs"
+                    DependentUpon = "sda1.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "sda3.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "sda3.cs"
+                />
+                <File
+                    RelPath = "sda3.cs"
+                    DependentUpon = "sda3.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "sela.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "sela.cs"
+                />
+                <File
+                    RelPath = "sela.cs"
+                    DependentUpon = "sela.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "show.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "show.aspx.cs"
+                    DependentUpon = "show.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "show.aspx.resx"
+                    DependentUpon = "show.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "webmenu.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "webmenu.aspx.cs"
+                    DependentUpon = "webmenu.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "webmenu.aspx.resx"
+                    DependentUpon = "webmenu.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ysheng.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ysheng.aspx.cs"
+                    DependentUpon = "ysheng.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ysheng.aspx.resx"
+                    DependentUpon = "ysheng.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "zhu.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "zhu.cs"
+                />
+                <File
+                    RelPath = "zhu.cs"
+                    DependentUpon = "zhu.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "zhuce.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "zhuce.aspx.cs"
+                    DependentUpon = "zhuce.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "zhuce.aspx.resx"
+                    DependentUpon = "zhuce.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "zhuyuan.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "zhuyuan.cs"
+                />
+                <File
+                    RelPath = "zhuyuan.cs"
+                    DependentUpon = "zhuyuan.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "zhuyuan.xsx"
+                    DependentUpon = "zhuyuan.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "img\1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\10.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\11.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\12.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\5.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\6.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\7.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\8.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\9.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\xsmb996.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\052955.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\052966.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\109818054495678.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\12xz01_001.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\12xz01_004.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\12xz01_009.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\18.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\CARTOON20.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\CARTOON25.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\KEN.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\mm1059_1024.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\mm1062_1024.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\Mm29.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\p_131217.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\stuphoto.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\taoyuan_1089722718.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\人1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jpg\人2.jpg"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

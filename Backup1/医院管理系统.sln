@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "医院管理系统", "http://localhost/医院管理系统/医院管理系统.csproj", "{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Debug|Default.ActiveCfg = Debug|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Debug|Default.Build.0 = Debug|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Release|Default.ActiveCfg = Release|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Release|Default.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

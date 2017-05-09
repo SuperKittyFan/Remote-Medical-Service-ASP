@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>医院管理系统</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>医院管理系统</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="allpepole.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>allpepole.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="chpasswd.aspx.cs">
+      <DependentUpon>chpasswd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chpasswd.aspx.designer.cs">
+      <DependentUpon>chpasswd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dss.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dss.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsss.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsss.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="guacz.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>guacz.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Interface1.cs" />
+    <Compile Include="jiuzhen.aspx.cs">
+      <DependentUpon>jiuzhen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jiuzhen.aspx.designer.cs">
+      <DependentUpon>jiuzhen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jzhenzhao.aspx.cs">
+      <DependentUpon>jzhenzhao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jzhenzhao.aspx.designer.cs">
+      <DependentUpon>jzhenzhao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jzzhao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jzzhao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="useradmin.aspx.cs">
+      <DependentUpon>useradmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="useradmin.aspx.designer.cs">
+      <DependentUpon>useradmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myima.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myima.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="nan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sda.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sda.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sda1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sda1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sda3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sda3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sela.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sela.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhuce2.aspx.cs">
+      <DependentUpon>zhuce2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zhuce2.aspx.designer.cs">
+      <DependentUpon>zhuce2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webmenu.aspx.cs">
+      <DependentUpon>webmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webmenu.aspx.designer.cs">
+      <DependentUpon>webmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="devices.aspx.cs">
+      <DependentUpon>devices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="devices.aspx.designer.cs">
+      <DependentUpon>devices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zhu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zhuce.aspx.cs">
+      <DependentUpon>zhuce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zhuce.aspx.designer.cs">
+      <DependentUpon>zhuce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhuyuan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zhuyuan.xsd</DependentUpon>
+    </Compile>
+    <Content Include="allpepole.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>allpepole.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="chpasswd.aspx" />
+    <Content Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="ds.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="ds1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds1.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="ds3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds3.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsa.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dss.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dss.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsss.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsss.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="guacz.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>guacz.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="home.html" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\10.jpg" />
+    <Content Include="img\11.jpg" />
+    <Content Include="img\12.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\9.jpg" />
+    <Content Include="img\xsmb996.gif" />
+    <Content Include="index.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="jiuzhen.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="jpg\052955.gif" />
+    <Content Include="jpg\052966.gif" />
+    <Content Include="jpg\109818054495678.jpg" />
+    <Content Include="jpg\12xz01_001.gif" />
+    <Content Include="jpg\12xz01_004.gif" />
+    <Content Include="jpg\12xz01_009.gif" />
+    <Content Include="jpg\18.jpg" />
+    <Content Include="jpg\CARTOON20.JPG" />
+    <Content Include="jpg\CARTOON25.JPG" />
+    <Content Include="jpg\KEN.gif" />
+    <Content Include="jpg\mm1059_1024.jpg" />
+    <Content Include="jpg\mm1062_1024.jpg" />
+    <Content Include="jpg\Mm29.jpg" />
+    <Content Include="jpg\p_131217.jpg" />
+    <Content Include="jpg\stuphoto.jpg" />
+    <Content Include="jpg\taoyuan_1089722718.jpg" />
+    <Content Include="jpg\人1.jpg" />
+    <Content Include="jpg\人2.jpg" />
+    <Content Include="jzhenzhao.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="jzzhao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jzzhao.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="useradmin.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="myima.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myima.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="nan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>nan.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="sda.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sda.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="sda1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sda1.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="sda3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sda3.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="sela.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sela.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="start.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="home.aspx" />
+    <Content Include="zhuce2.aspx" />
+    <Content Include="webmenu.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="devices.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="zhu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zhu.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="zhuce.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="zhuyuan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zhuyuan.Designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Cpass.resx">
+      <DependentUpon>Cpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.aspx.resx">
+      <DependentUpon>index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jiuzhen.aspx.resx">
+      <DependentUpon>jiuzhen.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jzhenzhao.aspx.resx">
+      <DependentUpon>jzhenzhao.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="useradmin.aspx.resx">
+      <DependentUpon>useradmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webmenu.aspx.resx">
+      <DependentUpon>webmenu.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devices.aspx.resx">
+      <DependentUpon>devices.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zhuce.aspx.resx">
+      <DependentUpon>zhuce.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="allpepole.xsc">
+      <DependentUpon>allpepole.xsd</DependentUpon>
+    </Content>
+    <Content Include="allpepole.xss">
+      <DependentUpon>allpepole.xsd</DependentUpon>
+    </Content>
+    <Content Include="jzzhao.xsc">
+      <DependentUpon>jzzhao.xsd</DependentUpon>
+    </Content>
+    <Content Include="jzzhao.xss">
+      <DependentUpon>jzzhao.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="dss.xsc">
+      <DependentUpon>dss.xsd</DependentUpon>
+    </Content>
+    <Content Include="dss.xss">
+      <DependentUpon>dss.xsd</DependentUpon>
+    </Content>
+    <Content Include="ds1.xsc">
+      <DependentUpon>ds1.xsd</DependentUpon>
+    </Content>
+    <Content Include="ds1.xss">
+      <DependentUpon>ds1.xsd</DependentUpon>
+    </Content>
+    <Content Include="dsa.xsc">
+      <DependentUpon>dsa.xsd</DependentUpon>
+    </Content>
+    <Content Include="dsa.xss">
+      <DependentUpon>dsa.xsd</DependentUpon>
+    </Content>
+    <Content Include="ds3.xsc">
+      <DependentUpon>ds3.xsd</DependentUpon>
+    </Content>
+    <Content Include="ds3.xss">
+      <DependentUpon>ds3.xsd</DependentUpon>
+    </Content>
+    <None Include="jzzhao.xsx">
+      <DependentUpon>jzzhao.xsd</DependentUpon>
+    </None>
+    <Content Include="zhu.xsc">
+      <DependentUpon>zhu.xsd</DependentUpon>
+    </Content>
+    <Content Include="zhu.xss">
+      <DependentUpon>zhu.xsd</DependentUpon>
+    </Content>
+    <Content Include="sda1.xsc">
+      <DependentUpon>sda1.xsd</DependentUpon>
+    </Content>
+    <Content Include="sda1.xss">
+      <DependentUpon>sda1.xsd</DependentUpon>
+    </Content>
+    <None Include="zhuyuan.xsx">
+      <DependentUpon>zhuyuan.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52067</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

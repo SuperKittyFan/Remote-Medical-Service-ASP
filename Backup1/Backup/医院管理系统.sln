@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "医院管理系统", "http://localhost/医院管理系统/医院管理系统.csproj", "{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Debug.ActiveCfg = Debug|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Debug.Build.0 = Debug|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Release.ActiveCfg = Release|.NET
+		{D232BE0E-AA0E-42C5-A4C5-93F19CF42EF9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

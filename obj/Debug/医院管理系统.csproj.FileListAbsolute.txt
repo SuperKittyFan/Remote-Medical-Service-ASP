@@ -1,0 +1,45 @@
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\bin\医院管理系统.dll
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\bin\医院管理系统.pdb
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.csprojResolveAssemblyReference.cache
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.Cpass.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.Global.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.index.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.jiuzhen.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.jzhenzhao.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.mimagai.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.webmenu.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.ysheng.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.zhuce.resources
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.csproj.GenerateResource.Cache
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.dll
+C:\Users\thinkpad\Desktop\aspnet 源码  医院管理系统医院管理系统 医院管理系统\医院管理系统\obj\Debug\医院管理系统.pdb
+C:\Users\Charles\Desktop\prp\bin\医院管理系统.dll
+C:\Users\Charles\Desktop\prp\bin\医院管理系统.pdb
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.csprojResolveAssemblyReference.cache
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.Cpass.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.Global.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.index.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.jiuzhen.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.jzhenzhao.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.mimagai.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.webmenu.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.ysheng.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.zhuce.resources
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.csproj.GenerateResource.Cache
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.dll
+C:\Users\Charles\Desktop\prp\obj\Debug\医院管理系统.pdb
+\\Mac\Home\Desktop\prp\bin\医院管理系统.dll
+\\Mac\Home\Desktop\prp\bin\医院管理系统.pdb
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.Cpass.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.Global.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.index.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.jiuzhen.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.jzhenzhao.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.mimagai.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.webmenu.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.ysheng.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.zhuce.resources
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.dll
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.pdb
+\\Mac\Home\Desktop\prp\obj\Debug\医院管理系统.csprojResolveAssemblyReference.cache
